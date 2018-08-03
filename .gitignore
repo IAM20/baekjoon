@@ -13,6 +13,7 @@
 *.lastbuildstate
 *.tlog
 *.suo
+*.ipch
 ### intellij
 *.iml
 *.xml
