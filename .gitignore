@@ -1,4 +1,4 @@
-# visual studio
+### visual studio
 *.sln
 *.db
 *.exe
@@ -13,3 +13,7 @@
 *.lastbuildstate
 *.tlog
 *.suo
+### intellij
+*.iml
+*.xml
+*.class
