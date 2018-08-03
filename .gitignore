@@ -1,0 +1,15 @@
+# visual studio
+*.sln
+*.db
+*.exe
+*.ilk
+*.pdb
+*.vcxproj
+*.filters
+*.log
+*.obj
+*.idb
+*.pdb
+*.lastbuildstate
+*.tlog
+*.suo
