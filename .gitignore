@@ -14,7 +14,15 @@
 *.tlog
 *.suo
 *.ipch
+*.opendb
 ### intellij
 *.iml
 *.xml
 *.class
+### CLion
+*.check_cache
+*.log
+*.txt
+cmake-build-debug/
+cmake-build-debug-visual-studio/
+.idea/
