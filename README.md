@@ -9,6 +9,7 @@ Just send e-mail!
 
 I am..
 
+ * Junior in HYU depart. CSE
  * Korea republic. Young dae Lee
  * Wanna be : Backend engineer.
  * I love nothing but computer.
