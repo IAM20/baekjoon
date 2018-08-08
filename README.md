@@ -13,7 +13,7 @@ I am..
  * Korea republic. Young dae Lee
  * Wanna be : Backend engineer.
  * I love nothing but computer.
- * 2018-07-02 ~ 2018-08-25 Navercorp. summer intern in yobi team.
+ * 2018-07-02 ~ 2018-08-25 Navercorp. summer intern
  * My project
 
  	* Put MLFQ, Priority & FCFS scheduler in xv6
