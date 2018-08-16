@@ -2,29 +2,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner buf = new Scanner(System.in);
-        int m = buf.nextInt();
-        int n = buf.nextInt();
-        int first = 0;
-        int retval = 0;
-        int tmp;
+        Scanner scanner = new Scanner(System.in);
+        int n, value;
+        n = scanner.nextInt();
+        value = scanner.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
 
-        for(int i = m; i <= n; i++) {
-            tmp = (int)Math.sqrt(i);
-            tmp *= tmp;
-            if(tmp == i) {
-                retval += i;
-                if(first == 0) {
-                    first = i;
-                }
-            }
+        int result = 0;
+        int iter = n - 1;
+        while(value != 0) {
+            if(arr[iter] <= value) {
+                result++;
+                value -= arr[iter];
+            } else iter--;
         }
-        if(retval == 0) {
-            System.out.println("-1");
-            System.exit(0);
-        }
-        System.out.println(retval);
-        System.out.println(first);
+        System.out.println(result);
     }
 }
-
