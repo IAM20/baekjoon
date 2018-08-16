@@ -32,9 +32,9 @@ I can..
  * Node.js
  * python.. ~~(maybe)~~
 
-I love
+Loving IDE
+ * CLion
  * Visual studio code
- * Atom
  * Intellij
  * Vim
 
