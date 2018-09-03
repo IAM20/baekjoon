@@ -45,14 +45,21 @@ int func() {
     }
 }
 
+void
+flush()
+{
+    int tmp;
+    while((tmp = getchar()) != EOF && tmp != '\n');
+}
+
 int main() {
-    scanf("%s", str);
-    init();
-    func();
-    if(result.left) {
-        printf("1\n");
-    } else if(result.center) {
-        printf("2\n");
-    } else
-        printf("3\n");
+	scanf("%s", str);
+	init();
+	func();
+	if(result.left) {
+		printf("1\n");
+	} else if (result.center) {
+		printf("2\n");
+	} else
+		printf("3\n");
 }
