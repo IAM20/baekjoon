@@ -32,9 +32,3 @@ I can..
  * Node.js
  * python.. ~~(maybe)~~
 
-Loving IDE
- * CLion
- * Visual studio code
- * Intellij
- * Vim
-
