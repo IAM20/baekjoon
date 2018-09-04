@@ -26,5 +26,7 @@
 cmake-build-debug/
 cmake-build-debug-visual-studio/
 .idea/
+
 ### Unbuntu
 main
+!main/
