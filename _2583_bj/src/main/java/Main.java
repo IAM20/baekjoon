@@ -33,7 +33,7 @@ public class Main {
 			}
 		}
 
-		if(startPointX > 0) {
+		if(startPointX > 0) {cd
 			if (matrix[startPointX - 1][startPointY] == NO) {
 				rightRetval += dfs(matrix, startPointX -1, startPointY);
 			}
