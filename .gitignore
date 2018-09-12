@@ -30,3 +30,7 @@ cmake-build-debug-visual-studio/
 ### Unbuntu
 main
 !main/
+
+
+### Desktop help directory...
+help/
