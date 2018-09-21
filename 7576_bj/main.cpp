@@ -54,8 +54,7 @@ void bfs(int startX, int startY) {
 				} else if (!matrix[x + 1][y]) {
 					if (result[x + 1][y] != 0) {
 						result[x + 1][y] = (result[x + 1][y] < depth + 1) ? result[x + 1][y] : depth + 1;
-					}
-					else {
+					} else {
 						result[x + 1][y] = depth + 1;
 					}
 					datas.push(makeData(depth + 1, x + 1, y));
