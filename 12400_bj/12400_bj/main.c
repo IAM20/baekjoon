@@ -9,7 +9,7 @@ int main(int argc, char * argv[])
 	int n, i, j, len;
 	char arr[30][101];
 	scanf("%d", &n);
-	//while (fgetc(stdin) != '\n');
+	while (fgetc(stdin) != '\n');
 	for (i = 0; i < n; i++)
 	{
 		fgets(arr[i], 101, stdin);
@@ -18,9 +18,8 @@ int main(int argc, char * argv[])
 		for (j = 0; j < len; j++)
 		{
 			arr[i][j] = convert(arr[i][j], 5);
-			printf("%d\n", arr[i][j]);
 		}
-	//	while (fgetc(stdin) != '\n');
+	while (fgetc(stdin) != '\n');
 	}
 	for (i = 0; i < n; i++)
 	{
@@ -30,7 +29,7 @@ int main(int argc, char * argv[])
 }
 
 char convert(char a, int len)
-{/*
+{
 	switch (a)
 	{
 	case 'a': return 'y';
@@ -61,7 +60,7 @@ char convert(char a, int len)
 	case 'z': return 'q';
 	default :
 		return a;
-	}*/
-	
-	return (a % (10^((len - 1)*10)) + a/(10^(len -1)));
+	}
+
+	//return (a % (10^((len - 1)*10)) + a/(10^(len -1)));
 }
