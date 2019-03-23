@@ -8,18 +8,23 @@ void init() {
 	arr[1] = 1;
 	arr[2] = 3;
 	arr[3] = 25;
-	for (int i = 3; i <= 11; i++) {
-		arr[i] = arr[i - 1] + arr[i - 1] * i;
-	}
+}
+
+void dp() {
+	return;
 }
 
 int main() {
 	int n;
 	cin >> n;
+
+	init();
+	dp();
+
 	for (int i = 0; i < n; i++) {
 		int b;
 		cin >> b;
-
+		cout << arr[b] << endl;
 	}
 	return 0;
 }
